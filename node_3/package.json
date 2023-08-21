@@ -1,0 +1,20 @@
+{
+  "name": "jedi_npm",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrii Gorun",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "next": "^13.4.19"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.2",
+    "hygen": "^6.2.11"
+  }
+}
