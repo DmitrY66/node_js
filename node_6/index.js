@@ -25,4 +25,4 @@ console.log(base64Buffer);
 
 
 const decodedTextbase64 = bufferToText(base64Buffer, 'base64');
-console.log(decodedTextbase64); // Выведет: Привет, мир!
+console.log(decodedTextbase64); // Выведет: Bookshop
