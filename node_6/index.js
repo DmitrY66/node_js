@@ -8,12 +8,21 @@ const bufferToText = (buffer, encoding) => buffer.toString(encoding);
 
 
 // Проверка решения
-const text = 'Привет, мир!';
+const text1 = 'Привет, мир!';
+const text2 = 'Bookshop';
 
-
-const utf8Buffer = textToBuffer(text, 'utf-8');
+const utf8Buffer = textToBuffer(text1, 'utf-8');
 console.log(utf8Buffer);
 
 
-const decodedText = bufferToText(utf8Buffer, 'utf-8');
-console.log(decodedText); // Выведет: Привет, мир!
+const decodedTextutf8 = bufferToText(utf8Buffer, 'utf-8');
+console.log(decodedTextutf8); // Выведет: Привет, мир!
+
+console.log();
+
+const base64Buffer = textToBuffer(text2, 'base64');
+console.log(base64Buffer);
+
+
+const decodedTextbase64 = bufferToText(base64Buffer, 'base64');
+console.log(decodedTextbase64); // Выведет: Привет, мир!
